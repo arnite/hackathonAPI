@@ -19,7 +19,7 @@ const sendErrorProd = (err, res) => {
       message: err.message,
     });
 
-    //Programming error: don't leak to client
+    //Programming error: don't leak to clients
   } else {
     //1) console.log the error to the client
 
