@@ -9,7 +9,7 @@ const speakerRouter = require('./Routes/speakerRoute');
 const cors = require('cors');
 const connectDB = require('./config/db');
 
-//This is for connecting to the database
+//This is for connecting to the database..
 connectDB();
 
 // 1) Middlewares
